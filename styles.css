@@ -1,0 +1,65 @@
+:root {
+  --thickness: 10px;
+  --bar-background-color: #0000ff;
+  --bar-background-color-hover: #ffff00;
+  --bar-font-color: #fff;
+  --bar-font-color-hover: var(--bar-background-color);
+  --bar-border-color: var(--bar-background-color);
+}
+
+figure {
+  width: 200px;
+  margin: 0 50px;
+}
+
+figcaption {
+  padding: 10px;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  font-size: 8px;
+
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid var(--bar-border-color);
+}
+
+ol.stacked {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  margin: 2px;
+  background: var(--bar-background-color);
+  color: var(--bar-font-color);
+  height: var(--length);
+  width: var(--thickness);
+  padding: 2px;
+  border: 1px solid var(--bar-border-color);
+}
+
+li:hover {
+  background: var(--bar-background-color-hover);
+  color: var(--bar-font-color-hover);
+}
+
+.stacked li {
+  height: var(--thickness);
+  width: var(--length);
+}
+
+fieldset {
+  width: 250px;
+  margin: 25px 15px;
+  font-size: 12px;
+}
+
+fieldset label {
+  display: block;
+}

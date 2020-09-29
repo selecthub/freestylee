@@ -1,0 +1,62 @@
+<figure id="app">
+  <figcaption>
+    Candies per day
+    <button v-on:click="flipChartDirection($event)">
+      flip chart
+    </button>
+  </figcaption>
+
+  <ol class="">
+    <li v-for="candyEaten in candiesEaten" :style="{'--length': candyEaten + 'px'}"
+   v-on:click="selectDay($event)">{{candyEaten}}</li>
+  </ol>
+</figure>
+
+<fieldset>
+  <legend>
+    Ideas
+  </legend>
+  <label>
+    <input type="checkbox">
+    Implement flip chart button
+  </label>
+  <label>
+    <input type="checkbox">
+    Keep bar selected on click
+  </label>
+  <label>
+    <input type="checkbox">
+    Change up styling
+  </label>
+  <label>
+    <input type="checkbox">
+    Make chart fill viewport and scale on resize
+  </label>
+  <label>
+    <input type="checkbox">
+    Way to add new 'days' with random data
+  </label>
+  <label>
+    <input type="checkbox">
+    Buttons to paginate data with 10 day windows
+  </label>
+  <label>
+    <input type="checkbox">
+    Add a details tooltip when hovering over bars
+  </label>
+  <label>
+    <input type="checkbox">
+    Persist state through page refresh
+  </label>
+  <label>
+    <input type="checkbox">
+    Other (feel free to be creative!)
+  </label>
+
+  <hr />
+  <label>
+    <input type="checkbox" checked="checked">
+    Check off items on this list when they are done
+  </label>
+
+</fieldset>
