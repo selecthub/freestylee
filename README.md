@@ -6,7 +6,7 @@ This repo serves as a base to your own repo where you'd track changes that shoul
 It's a freestyle. There are suggestions about what could be done listed with checkboxes, but they can be ignored and you can provide your own list. 
 
 The idea is simple: do whatever you can think of to the chart in fiddle to show off your skills and creativity, and follow this simple rules:
-* use "Use this template" button or create new private repo and manually recreate or use this one (don't fork as we don't want to make your changes publicly visible) and give access to the account given in the email - use your repo to commit changes
+* use "Use this template" button or create new private repo and manually recreate this one (don't fork as we don't want to make your changes publicly visible) and give access to the account given in the email - use your repo to commit changes
 * try to use one commit per one feature or per refactoring, if you feel you want to do one
 * all features should be listed with checkboxes and the final fiddle should have them checked if they are done.
 * when you finish, please update this file with final jsFiddle link - please mind that jsFiddle updates URL with any change so once sent URL will not show any changes done after you share it
